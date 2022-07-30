@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="keywords" content="programming, data structures, algorithms, python">
+            <meta name="description" content="Free information and knowledge about Programming, Data structures and Algorithms using Python">
+            <meta name="author" content="Sreekanth S">
+            <link rel="stylesheet" href="styles/styles.css">
+            <title>Programming, Data Structures and Algorithms using Python</title>
+            <style>                
+                .container{
+                    width: 100%;
+                    height: 100vh;
+                    background: #222;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                h2{
+                    font-size: 80px;
+                    color: #fff;
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                    position: fixed;
+                    z-index: 1;
+                }
+
+                #lectureslink{
+                    font-size: 60px;
+                    position:fixed;
+                    bottom: 0;
+                    right: 50;
+                    width: 600px;
+                }
+
+                h2::before, h2::after{
+                    content: '';
+                    padding: 70px;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    display: block;
+                    transform: translateX(-50%) translateY(-50%) rotate(0);
+                    animation: spin 6s alternate infinite ease-in-out;
+                }
+
+                h2::before{
+                    border-top: 15px solid #ff126d;
+                    border-left: 15px solid #ff126d;
+                }
+
+                h2::after{
+                    border-bottom: 15px solid #ff126d;
+                    border-right: 15px solid #ff126d;
+                    z-index: -1;
+                }
+
+                @keyframes spin {
+                    100%{
+                        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+                    }
+                }
+            </style>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <h2>Thank you</h2>
+                
+            </div>
+        </section>
+    </body>
+</html>

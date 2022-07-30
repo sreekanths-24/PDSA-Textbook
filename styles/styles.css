@@ -1,0 +1,308 @@
+/* ----- common to all pages ------ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    /* The styles for iframes is given in the video lectures section below */
+    /* The styles for images is given in the lectures section*/
+
+strong{
+    display: block;
+    text-align: center;
+}
+
+span{/*used in home page once*/
+    background-color: rgb(156,175,136);
+}
+
+p{
+    text-indent: 70px;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(156,175,136);;
+}
+
+::-webkit-scrollbar-track{
+    background: antiquewhite;
+}
+
+/* ------ contents ------ */
+
+.contents{
+    height: 93%;
+    width: 25%;
+    overflow-y: scroll;
+    padding: 8px;
+    position: fixed;
+    background-color: burlywood;
+    margin-top: 47px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contents ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contents ul li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.contents ul li a:hover{
+    background-color: grey;
+    
+}
+
+.contents::-webkit-scrollbar{
+    width: 10px;
+}
+
+.contents::-webkit-scrollbar-track{
+    background: burlywood;
+}
+
+.contents::-webkit-scrollbar-thumb{
+    background: rgb(156,175,136);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------ navigation bar ------ */
+
+.menu-links ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 47px;
+    background-color: grey;
+    list-style-type: none;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.menu-links ul li{
+    float: right;
+}
+
+.menu-links ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-links ul li a:hover{
+    background-color: #000;
+    color: white;
+}
+
+.present-page{
+    background-color: rgb(156,175,136); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------ the material ------ */
+
+
+.material{
+    margin-left: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    
+}
+
+.material h1,h2{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.material h1{
+    font-size: 50px;
+}
+
+.material h2{
+    font-size: 40px;
+}
+
+.material p{
+    font-size: 25px;
+}
+
+#week1,#week2,#week3,#week4,#week5,#week6,#week7,#week8{
+   text-align: center;
+}
+
+img{
+    display: block;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%; 
+    height: auto;
+}
+
+.lecture-images{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ------- video lectures ------- */
+.video-classes{
+    margin-left: 25%;
+}
+
+.video-body{
+    background-color: antiquewhite;
+}
+
+#VW1,#VW2,#VW3,#VW4,#VW5,#VW6,#VW7,#VW8{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.vlh{
+    font-size: 40px;
+}
+
+.w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.video-classes h1{
+    padding-top: 70px;
+    display: block;
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------ about content ------- */
+.about-content{
+    padding-top: 60px;
+}
+
+.about-content h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.about-content p{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+
+/* ------ home page ------- */
+.main-container{
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.main-body h2 {
+    font-size: 40px;
+}
+
+iframe #xvxv{
+    display: block;
+    margin: 0; 
+}
+
+.main-body h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-body p{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: x-large;
+}
+
+.intro-video-index{
+    text-align: center;
+}
+
+
+/* ------ footer common for home and about page ---------*/
+footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    display: flex;
+    background-color: burlywood;
+}
+
+footer div{
+    text-align: center;
+}
+
+.my-team{
+    flex-grow: 2;
+}
+
+footer div h1{
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+footer .my-team a, .contact a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* -------  icons -------*/
+.icons{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    float: left;
+    margin: 0 15px;
+}
+
+/*------- textbook download--------*/
+#textbook-download{
+    display: block;
+    background-color:  rgb(156,175,136);
+    text-align: center;
+    margin: 50px auto;
+    padding:15px 0px ;
+    border: solid black;
+    max-width: 50%;
+}
+#textbook-download a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe{
+    display: block;
+    margin: 10px auto;
+}
+
+.intro-video-index h2{
+    display: block;
+    text-align: center;
+}
+
+h2, h1{
+    font-size: 3vw;
+}
+
+li a{
+    text-decoration: none;
+    padding: 3px 10vw;
+    
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
