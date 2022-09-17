@@ -23,7 +23,7 @@
     }
 
     body{
-        background-color: burlywood;
+        background-color: antiquewhite;
     }
 
     /* ------ contents ------ */
@@ -31,7 +31,7 @@
     .contents{
         width: 100%;
         padding: 8px;
-        background-color: burlywood;
+        background-color: antiquewhite;
         margin-top: 47px;
     }
 
@@ -39,7 +39,6 @@
         margin-top: 5px;
         list-style-type: none;
         background-color: whitesmoke;
-        border: solid whitesmoke;
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -83,11 +82,11 @@
 
     min-height: 40px;
     max-height: 12%;
-    background-color: grey;
+    background-color: burlywood;
     list-style-type: none;
     overflow: hidden;
     z-index: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
 
     .menu-links ul li{
@@ -104,7 +103,7 @@
     }
 
     .present-page{
-        background-color: rgb(156,175,136); 
+        background-color: antiquewhite; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -164,7 +163,7 @@
     }
 
     body{
-        background-color: burlywood;
+        background-color: antiquewhite;
     }
 
     /* ------ contents ------ */
@@ -172,7 +171,7 @@
     .contents{
         width: 100%;
         padding: 8px;
-        background-color: burlywood;
+        background-color: antiquewhite;
         margin-top: 47px;
     }
 
@@ -180,7 +179,6 @@
         margin-top: 5px;
         list-style-type: none;
         background-color: whitesmoke;
-        border: solid whitesmoke;
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -222,11 +220,11 @@
         top: 0;
         width: 100%;
         min-height: 7%;
-        background-color: grey;
+        background-color: burlywood;
         list-style-type: none;
         overflow: hidden;
         z-index: 1;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
 
 
@@ -243,12 +241,11 @@
     }
 
     .menu-links ul li a:hover{
-        background-color: #000;
-        color: white;
+        background-color: #E4D9C3;
     }
 
     .present-page{
-        background-color: rgb(156,175,136); 
+        background-color: antiquewhite; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 

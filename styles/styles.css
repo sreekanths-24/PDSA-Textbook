@@ -26,7 +26,6 @@
     p{
         text-indent: 30px;
         line-height: 1.5;
-        font-weight: 300;
     }
 
     
@@ -65,11 +64,11 @@
         display: none;
     }
 
-    .menu-links{
+    .menu-links .phone-menu{
         text-align: center;
         
-        min-height: 12%;
-        max-height: 13%;
+        min-height: 40px;
+        max-height: 50px;
     }
 
     .menu-links ul{
@@ -78,12 +77,12 @@
         width: 100%;
         
         min-height: 40px;
-        max-height: 12%;
-        background-color: grey;
+        max-height: 50px;
+        background-color: burlywood;
         list-style-type: none;
         overflow: hidden;
         z-index: 1;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
 
     .menu-links ul li{
@@ -102,7 +101,7 @@
 
 
     .present-page{
-        background-color: rgb(156,175,136); 
+        background-color: antiquewhite; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -460,11 +459,11 @@
         top: 0;
         width: 100%;
         min-height: 7%;
-        background-color: grey;
+        background-color: burlywood;
         list-style-type: none;
         overflow: hidden;
         z-index: 1;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
 
 
@@ -481,12 +480,11 @@
     }
 
     .menu-links ul li a:hover{
-        background-color: #000;
-        color: white;
+        background-color: #E4D9C3;
     }
 
     .present-page{
-        background-color: rgb(156,175,136); 
+        background-color: antiquewhite; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -494,6 +492,7 @@
     /* ------ contents ------ */
 
     .contents{
+        border-top: 1px solid antiquewhite;
         height: 93%;
         width: 25%;
         overflow-y: scroll;
@@ -568,6 +567,8 @@
 
     .material p{
         font-size: 25px;
+        font-weight: 200;
+        line-height: 1.5;
     }
 
     #week1,#week2,#week3,#week4,#week5,#week6,#week7,#week8{
@@ -602,24 +603,25 @@
     .about-content h1{
         text-align: left;
         margin-bottom: 15px;
-        font-size: 35px;
-        margin-left: 10%;
-        margin-right: 10%;
+        font-size: 33px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .about-content h3{
         text-align: left;
         margin-top: 35px;
         margin-bottom: 15px;
-        font-size: 35px;
-        margin-left: 10%;
-        margin-right: 10%;
+        font-size: 33px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .about-content p{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
         font-size: 22px;
+        font-weight: 300;
     }
 
 
@@ -641,24 +643,25 @@
         text-align: left;
         margin-top: 40px;
         margin-bottom: 15px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
    
     .main-body h1 {
         padding-top: 60px;
         margin-bottom: 15px;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 35px;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 33px;
         text-align: left;
     }
 
     .main-body p{
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
         font-size: 22px;
+        font-weight: 300;
     }
 
 
