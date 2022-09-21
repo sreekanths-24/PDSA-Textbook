@@ -19,11 +19,11 @@
     }
 
     ::-webkit-scrollbar-track{
-        background: burlywood;
+        background: #FADADD;
     }
 
     body{
-        background-color: antiquewhite;
+        background-color: #FADADD;
     }
 
     /* ------ contents ------ */
@@ -31,7 +31,7 @@
     .contents{
         width: 100%;
         padding: 8px;
-        background-color: antiquewhite;
+        background-color: #FADADD;
         margin-top: 47px;
     }
 
@@ -82,12 +82,12 @@
 
     min-height: 40px;
     max-height: 12%;
-    background-color: burlywood;
+    background-color: #ee5873;
     list-style-type: none;
     overflow: hidden;
     z-index: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */}
 
     .menu-links ul li{
         display: inline-flex;
@@ -103,7 +103,7 @@
     }
 
     .present-page{
-        background-color: antiquewhite; 
+        background-color: white; 
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/   
     }
 
@@ -114,6 +114,7 @@
     text-align: center;
     font-size: large;
     margin: 25px 0;
+    background-color: #FADADD;
 
     }
 
@@ -121,11 +122,11 @@
     color: black;
     display: inline-block;
     text-decoration: none;
-    border: solid black 2px;
+    border: solid black 0.5px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(156,175,136);
+    background-color: #80CEE1;
     }
 
     .next-previous-buttons a:hover{
@@ -151,19 +152,20 @@
     }
 
     ::-webkit-scrollbar{
-        width: 3px;
+        width: 8px;
     }
 
     ::-webkit-scrollbar-thumb{
-        background: rgb(156,175,136);;
+        background: #ee5873;
+        border-radius: 5px;
     }
 
     ::-webkit-scrollbar-track{
-        background: burlywood;
+        background: white;
     }
 
     body{
-        background-color: antiquewhite;
+        background-color: #FADADD;
     }
 
     /* ------ contents ------ */
@@ -171,7 +173,7 @@
     .contents{
         width: 100%;
         padding: 8px;
-        background-color: antiquewhite;
+        background-color: #FADADD;
         margin-top: 47px;
     }
 
@@ -220,7 +222,7 @@
         top: 0;
         width: 100%;
         min-height: 7%;
-        background-color: burlywood;
+        background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
         z-index: 1;
@@ -241,11 +243,12 @@
     }
 
     .menu-links ul li a:hover{
-        background-color: #E4D9C3;
+        background-color: white;
+        transition: 2s;
     }
 
     .present-page{
-        background-color: antiquewhite; 
+        background-color: #FADADD; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -265,11 +268,11 @@
         color: black;
         display: inline-block;
         text-decoration: none;
-        border: solid black 2px;
+        border: solid black 0.5px;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: rgb(156,175,136);
+        background-color: #80CEE1;
         }
     
         .next-previous-buttons a:hover{
