@@ -6,7 +6,7 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
 
     a{
@@ -19,7 +19,7 @@
     }
 
     span{/*used in home page once*/
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: 700;
     }
 
@@ -211,7 +211,7 @@
     /*------- textbook download--------*/
     #textbook-download{
         background-color: #80CEE1;
-        border: solid black 0.5px;
+        border: solid black 1px;
         border-radius: 10px;
         max-width: 40%;
         margin-left: auto;
@@ -297,7 +297,7 @@
         color: #17181c;
         display: inline-block;
         text-decoration: none;
-        border: solid black 0.5px;
+        border: solid black 1px;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -401,7 +401,7 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
 
     .small-content-m{
@@ -414,7 +414,7 @@
     }
 
     span{/*used in home page once*/
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: 700;
     }
 
@@ -609,7 +609,7 @@
         color: #17181c;
         display: inline-block;
         text-decoration: none;
-        border: solid black 0.5px;
+        border: solid black 1px;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -741,7 +741,7 @@
     /*------- textbook download--------*/
     #textbook-download{
         background-color: #80CEE1;
-        border: solid black 0.5px;
+        border: solid black 1px;
         border-radius: 10px;
         max-width: 40%;
         margin-left: auto;
