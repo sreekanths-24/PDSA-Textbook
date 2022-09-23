@@ -56,7 +56,7 @@
     .menu-icons{
         margin-left: 5px;
         margin-right: 5px;
-        width: 17px;
+        width: 18px;
         height: auto;
     }
 
@@ -66,14 +66,16 @@
 
     .phone-menu{
         text-align: center;
-        height: auto;    
+        min-height: 36px;
+        max-height: 50px;    
     }
 
     .menu-links ul{
         position: fixed;
         top: 0;
         width: 100%;
-        height: auto;
+        min-height: 36px;
+        max-height: 50px;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
@@ -98,7 +100,8 @@
 
     .present-page{
         
-        height: 48px;
+        min-height: 36px;
+        max-height: 50px;
         background-color: white; 
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
@@ -461,7 +464,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        min-height: 30px;
+        min-height: 7%;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;

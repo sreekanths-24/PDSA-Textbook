@@ -62,10 +62,15 @@
     .menu-icons{
         margin-left: 5px;
         margin-right: 5px;
-        width: 17px;
+        width: 18px;
         height: auto;
     }
 
+    .menu-links{
+        text-align: center;
+        min-height: 12%;
+        max-height: 13%;
+    }
     .lap-menu{
         display: none;
     }
@@ -79,7 +84,8 @@
         position: fixed;
         top: 0;
         width: 100%;
-        height: auto;
+        min-height: 40px;
+        max-height: 12%;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
