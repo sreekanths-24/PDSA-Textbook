@@ -66,26 +66,22 @@
         height: auto;
     }
 
-    .menu-links{
-        text-align: center;
-        min-height: 12%;
-        max-height: 13%;
-    }
     .lap-menu{
         display: none;
     }
 
     .phone-menu{
         text-align: center;
-        height: auto;    
+        min-height: 36px;
+        max-height: 50px;    
     }
 
     .menu-links ul{
         position: fixed;
         top: 0;
         width: 100%;
-        min-height: 40px;
-        max-height: 12%;
+        min-height: 36px;
+        max-height: 50px;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
@@ -110,11 +106,11 @@
 
     .present-page{
         
-        height: 48px;
+        min-height: 36px;
+        max-height: 50px;
         background-color: #FADADD; 
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    }
-    
+    }    
     /*  ---------The next and previous buttons----------*/
     .next-previous-buttons{
     display: block;
