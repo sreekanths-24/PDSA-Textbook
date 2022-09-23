@@ -56,7 +56,7 @@
     .menu-icons{
         margin-left: 5px;
         margin-right: 5px;
-        width: 18px;
+        width: 17px;
         height: auto;
     }
 
@@ -66,18 +66,14 @@
 
     .phone-menu{
         text-align: center;
-        
-        min-height: 36px;
-        max-height: 50px;
+        height: auto;    
     }
 
     .menu-links ul{
         position: fixed;
         top: 0;
         width: 100%;
-        
-        min-height: 36px;
-        max-height: 50px;
+        height: auto;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
@@ -102,8 +98,7 @@
 
     .present-page{
         
-        min-height: 38px;
-        max-height: 50px;
+        height: 48px;
         background-color: white; 
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
@@ -422,6 +417,10 @@
         background-color: white;
     }
 
+    a{
+        text-decoration: none;
+    }
+
     p{
         text-indent: 70px;
     }
@@ -452,19 +451,17 @@
         height: auto;
     }
 
-    .menu-links{
-        text-align: center;
-    }
 
     .menu-links ul li .small-content{
         display: none;
     }
 
-    .menu-links ul{
+    .menu-links{
+        text-align: center;
         position: fixed;
         top: 0;
         width: 100%;
-        min-height: 7%;
+        min-height: 30px;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
@@ -492,6 +489,7 @@
 
     .present-page{
         background-color: white; 
+        height: 47px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 

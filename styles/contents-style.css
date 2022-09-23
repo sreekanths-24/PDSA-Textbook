@@ -58,40 +58,38 @@
     }
 
     /* ------ navigation bar ------ */
+
     .menu-icons{
         margin-left: 5px;
         margin-right: 5px;
-    width: 18px;
-    height: auto;
+        width: 17px;
+        height: auto;
     }
 
     .lap-menu{
         display: none;
     }
 
-    .menu-links{
-    text-align: center;
-
-    min-height: 12%;
-    max-height: 13%;
+    .phone-menu{
+        text-align: center;
+        height: auto;    
     }
 
     .menu-links ul{
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    min-height: 40px;
-    max-height: 12%;
-    background-color: #ee5873;
-    list-style-type: none;
-    overflow: hidden;
-    z-index: 1;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: auto;
+        background-color: #ee5873;
+        list-style-type: none;
+        overflow: hidden;
+        z-index: 1;
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     */}
 
     .menu-links ul li{
         display: inline-flex;
+        gap: 0;
     }
 
     .menu-links ul li a{
@@ -103,11 +101,14 @@
         font-size: 80%;
     }
 
-    .present-page{
-        background-color: #FADADD; 
-        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/   
-    }
 
+    .present-page{
+        
+        height: 48px;
+        background-color: #FADADD; 
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    }
+    
     /*  ---------The next and previous buttons----------*/
     .next-previous-buttons{
     display: block;
