@@ -29,11 +29,23 @@
 
     /* ------ contents ------ */
 
+    .week-heading{
+        /*border-left: solid #ee5873 5px;
+        border-right: solid #ee5873 5px;*/
+        background-color: lightpink;
+        border-bottom: solid #ee5873 2px;
+    }
+
+    .week-heading-top{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
     .contents{
         width: 100%;
         padding: 8px;
         background-color: #FADADD;
-        margin-top: 47px;
+        margin-top: 57px;
     }
 
     .contents ul{
@@ -173,6 +185,8 @@
     }
 
     /* ------ contents ------ */
+
+
 
     .contents{
         width: 100%;
