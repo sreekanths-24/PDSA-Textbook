@@ -30,9 +30,7 @@
     /* ------ contents ------ */
 
     .week-heading{
-        /*border-left: solid #ee5873 5px;
-        border-right: solid #ee5873 5px;*/
-        background-color: lightpink;
+        border-left: solid #ee5873 5px;
         border-bottom: solid #ee5873 2px;
     }
 

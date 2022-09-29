@@ -316,66 +316,6 @@
         display: none;
     }
 
-    /*--------- feedback form ----------*/
-    .feedback-form{
-        margin-top: 60px;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-    }
-    form{
-        margin-left: auto;
-        margin-right: auto;
-        background-color: burlywood;
-        display: flex;
-        flex-direction: column;
-        padding: 2vw 4vw;
-        width: 80%;
-        border: solid black 2px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-
-    form h1{
-        font-weight: 800;
-        margin-bottom: 20px;
-    }
-
-    form input, form textarea{
-        border: solid black 1px;
-        border-radius: 10px;
-        outline: none;
-        margin: 10px 0;
-        padding: 15px;
-        font-size: 15px;
-    }
-
-    form button{
-        padding: 6px;
-        margin-bottom: 7px;
-        font-weight: 500;
-        background-color:rgb(156,175,136);
-        outline: none;
-        cursor: pointer;   
-        border: solid black 2px;
-        border-radius: 10px; 
-    }
-
-    form button:hover{
-        background-color: black;
-        color: white;
-    }
-
-    .fb-buttons{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .feedback-body{
-        align-items: center;
-        justify-content: center;
-    }
 
     .message-text{
         text-indent: 0px;

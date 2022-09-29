@@ -18,7 +18,17 @@ Hello everyone, My name is Sreekanth S. I am a second year BTech student studyin
 5) __styles folder__ has two sub folders, the styles file is the main css file and the contents-style file is responsible for the styling of the contents page(contents-responsive.html), which you will see in the mobile version and the video lectures page(new-video-lectures.html).
 6) the _about.html_ is the about page, _contents-responsive.html_ is the contents page, _index.html_ is the main home page and the _new-video-lectures.html_ is the video lectures page.
 
+<h1>Special Thanks To</h1>
+My Parents ,
+<a href="https://github.com/Rijas323" target="_blank" title="Rijas's github profile">Muhammed Rijas K R</a> ,
+<a href="https://github.com/mdmrhjz" target="_blank" title="Maher's github profile">Mohamed Maher Rashid</a> ,
+<a href="https://github.com/MHDShamil1" target="_blank" title="Shamil's github profile">Muhammed Shamil P</a>,
+<a href="https://github.com/nikhilravi2001" target="_blank" title="Nikhil's github profile">Nikhil Ravi</a> and 
+<a href="#">Ahammad Nabuhan Abdulla N</a> for all the support.
+
+
 # Contributions
 All contributions are welcome. You can add your name here when you contribute.
+
 
 ## Thank you.
