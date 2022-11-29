@@ -70,6 +70,12 @@
         max-height: 50px;    
     }
 
+    .menu-links{
+        
+        min-height: 36px;
+        max-height: 50px;
+    }
+
     .menu-links ul{
         position: fixed;
         top: 0;
@@ -400,11 +406,16 @@
     }
 
     .menu-links{
+        
+        min-height: 36px;
+        max-height: 50px;
+    }
+
+    .menu-links{
         text-align: center;
         position: fixed;
         top: 0;
         width: 100%;
-        min-height: 7%;
         background-color: #ee5873;
         list-style-type: none;
         overflow: hidden;
